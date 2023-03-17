@@ -123,7 +123,6 @@ RUN sudo apt-get update \
  RUN wget https://files.magerun.net/n98-magerun2.phar \
      && chmod +x ./n98-magerun2.phar \
      && sudo mv ./n98-magerun2.phar /usr/local/bin/n98-magerun2
-3.7-p2
 RUN sudo chown -R gitpod:gitpod /etc/php
 RUN sudo chown -R gitpod:gitpod /etc/nginx
 RUN sudo chown -R gitpod:gitpod /etc/init.d/
